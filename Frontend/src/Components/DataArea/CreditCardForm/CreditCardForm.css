@@ -1,0 +1,29 @@
+.CreditCardForm {
+	
+}
+.container{
+    margin-top: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.Form {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px;
+    background-color: whitesmoke;
+    opacity: .9;
+}
+
+.form-div{
+    width: 400px;
+    padding: 30px;
+    border-radius: 10px;
+    -webkit-box-shadow: -1px 8px 15px 0px rgba(0 , 0, 0 0.44);
+    -moz-box-shadow: -1px 8px 15px 0px rgba(0 , 0, 0 0.44);
+    box-shadow: -1px 8px 15px 0px rgba(0 , 0, 0 0.44);
+}

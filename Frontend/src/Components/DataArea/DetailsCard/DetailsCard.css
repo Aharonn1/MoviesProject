@@ -1,0 +1,11 @@
+.DetailsCard {
+    background-color: black ;    
+}
+
+.movie2   {
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    width: 100%;
+    height: 100%;
+}

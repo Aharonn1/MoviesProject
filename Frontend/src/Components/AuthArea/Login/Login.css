@@ -1,0 +1,16 @@
+.Login > form {
+	border: 1px solid;
+    padding: 10px;
+    margin: 10px auto;
+    width: 300px;
+    text-align: left;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px;
+}
+
+.Login input, .Login select, .Login button {
+    width: 100%;
+    font-size: x-large;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}

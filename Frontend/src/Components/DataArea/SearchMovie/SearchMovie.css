@@ -1,0 +1,89 @@
+.SearchMovie .DataCard{
+    position: relative;
+    width: 320px;
+    height: 180px;
+    background: #fff;
+    border-radius: 20px;
+    /* overflow: hidden; */
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.25);
+}
+
+.body_item .DataCard .poster {
+    position: relative;
+    overflow: hidden;
+}
+
+.body_item .DataCard .poster::before{
+    content: '';
+    position: absolute;
+    bottom: -220px;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(0deg, #1064a6 50%, transparent);
+    transition: 0.5s;
+    z-index: 1;
+} 
+ 
+ .body_item .DataCard:hover .poster::before{
+    bottom: 0px;
+ } 
+
+ .body_item .DataCard .poster img {
+    width: 100%;
+    transition: 0.5s;
+
+ }  
+  .body_item .DataCard:hover .poster  {
+    transform: translateY(-50px);
+    filter: blur(5px);
+ }  
+
+ /* .DataCard:hover .poster h5 {
+    transform: translateY(-20px);
+    filter: blur(10px);
+ }   */
+.body_item .DataCard .poster  {
+    width:  100%;
+    transition:  0.5s;
+}
+
+.body_item .DataCard:hover .poster h4  {
+    font-size: 14px;
+    color: #fff;
+}
+
+
+.body_item .DataCard .details h4  {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 20px;
+    width: 90%;
+    z-index: 2;
+    transition: 0.5s;
+}
+ .body_item .DataCard:hover .details h4{
+    bottom: 40px;
+ } 
+
+ .body_item .DataCard .details {
+    font-size: 14px;
+    color: #d89f9ff8;
+ }
+
+
+
+
+.body_item .DataCard:hover .details {
+    bottom: 20px;
+ }
+ .d-flex{
+    /* display:inline-table;
+    justify-content: left;
+    position:absolute;
+    bottom: 0;
+    left: 140px;
+    padding: 1px; */
+   
+ }
+ 

@@ -1,0 +1,25 @@
+.BlogCard {
+    width: 60%;
+    display: inline-block;
+}
+
+.BlogCard .poster {
+    position: relative;
+    overflow: hidden;
+}
+
+.poster img {
+    float: right;
+    width: 40%;
+    transition: 0.5s;
+
+}
+
+.p {
+
+    position: absolute;
+    width: 60%;
+    float: right;
+    top: 20%;
+    padding: 3px;
+}
